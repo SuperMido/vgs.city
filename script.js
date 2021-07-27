@@ -5,7 +5,13 @@ let third = "TeamSpeak Link";
 
 function copyText(text) {
     if (text == "first") {
-        window.location.href = "https://cfx.re/join/d679oy";
+        var input = document.createElement('input');
+        input.setAttribute('value', second);
+        document.body.appendChild(input);
+        input.select();
+        var result = document.execCommand('copy');
+        document.body.removeChild(input)
+        return result;
     }
     if (text == "second") {
         var input = document.createElement('input');
@@ -32,7 +38,7 @@ function openLink(value) {
         window.location.href = "https://cfx.re/join/d679oy";
     }
     if (value == "second") {
-        window.location.href = "https://discord.gg/";
+        window.location.href = "https://discord.gg/Kyx9RknpTs";
     }
     if (value == "third") {
         window.location.href = "ts3server://";
