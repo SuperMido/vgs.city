@@ -156,7 +156,7 @@ function getPlayers() {
             .then(function(body) {
                 let players = body.data;
                 send(players.length);
-                document.getElementById('players') = `${players.length}/1024`
+                document.getElementsByClassName('secslots') = `${players.length}/1024`;
             })
             .catch(function(error) {
                 err(error);
