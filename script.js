@@ -1,4 +1,4 @@
-let first = null;
+let first = "https://cfx.re/join/d679oy";
 let second = "https://discord.vgs.city/";
 let third = "VGS NGÁO GAME";
 
