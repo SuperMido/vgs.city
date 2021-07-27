@@ -1,5 +1,5 @@
 let first = null;
-let second = "https://discord.gg/";
+let second = "https://discord.gg/Kyx9RknpTs";
 let third = "TeamSpeak Link";
 
 
