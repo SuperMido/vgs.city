@@ -1,16 +1,3 @@
-<?php
-$server_settings['title'] = "VGS Role Play";
-$server_settings['ip'] = "139.99.122.40";
-$server_settings['port'] = "30120"; // Basic port 30120 olmalı (eğer değiştirilmediyse)
-$server_settings['max_slots'] = 1024; // Max Player Slot (Varsayılan 64)
-/*----------------------------------------------------------------*/
-$content = json_decode(file_get_contents("http://".$server_settings['ip'].":".$server_settings['port']."/info.json"), true);
-$img_d64 = $content['icon'];
-if($content):
-    $gta5_players = file_get_contents("http://".$server_settings['ip'].":".$server_settings['port']."/players.json");
-	$content = json_decode($gta5_players, true);
-	$pl_count = count($content);
-?>
 <html>
 <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="css/style.css">
@@ -52,7 +39,7 @@ if($content):
     <div class="sec2">
         <div class="sectitle">GTA RolePlay</div>
         <div class="secsubtitle">VGS City</div>
-        <div class="secslots"><?php $pl_count / $server_settings[max_slots] ?>/1000</div>
+        <div class="secslots">/1000</div>
         <div class="secip" id="first" onclick="openLink('first')">Join VGS City</div><i onclick="copyText('first')"></i>
         <div class="secbarfull">
             <div class="secinbar"></div>
