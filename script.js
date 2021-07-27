@@ -46,8 +46,8 @@ function openLink(value) {
     if (value == "start") {
         window.location.href = "index.html";
     }
-    if (value == "about") {
-        window.location.href = "about.html";
+    if (value == "tutorial") {
+        window.location.href = "tutorial.html";
     }
     if (value == "contact") {
         window.location.href = "contact.html";
