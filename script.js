@@ -1,6 +1,6 @@
 let first = null;
-let second = "https://discord.gg/Kyx9RknpTs";
-let third = "TeamSpeak Link";
+let second = "https://discord.vgs.city/";
+let third = "VGS NGÁO GAME";
 
 
 function copyText(text) {
@@ -38,7 +38,7 @@ function openLink(value) {
         window.location.href = "https://cfx.re/join/d679oy";
     }
     if (value == "second") {
-        window.location.href = "https://discord.gg/Kyx9RknpTs";
+        window.location.href = "https://discord.vgs.city/";
     }
     if (value == "third") {
         window.location.href = "ts3server://";
