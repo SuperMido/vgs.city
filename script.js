@@ -155,7 +155,6 @@ function getPlayers() {
             .get(`http://139.99.122.40:30120/players.json`, { timeout: this.options.timeout })
             .then(function(body) {
                 let players = body.data;
-                send(players.length);
                 document.getElementsByClassName('secslots') = `${players.length}/1024`;
             })
             .catch(function(error) {
