@@ -41,7 +41,7 @@ function openLink(value) {
         window.location.href = "https://discord.vgs.city/";
     }
     if (value == "third") {
-        window.location.href = "ts3server://";
+        window.location.href = "https://www.facebook.com/groups/ngaogame/";
     }
     if (value == "start") {
         window.location.href = "index.html";
