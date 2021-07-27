@@ -5,7 +5,7 @@ let third = "TeamSpeak Link";
 
 function copyText(text) {
     if (text == "first") {
-        alert('Server is currently under development')
+        window.location.href = "https://cfx.re/join/d679oy";
     }
     if (text == "second") {
         var input = document.createElement('input');
@@ -29,7 +29,7 @@ function copyText(text) {
 
 function openLink(value) {
     if (value == "first") {
-        alert('Server is currently under development')
+        window.location.href = "https://cfx.re/join/d679oy";
     }
     if (value == "second") {
         window.location.href = "https://discord.gg/";
