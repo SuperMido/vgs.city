@@ -1,5 +1,5 @@
 let first = "https://cfx.re/join/d679oy";
-let second = "https://discord.vgs.city/";
+let second = "https://discord.gg/783uqcyfr2";
 let third = "VGS NGÁO GAME";
 
 
@@ -38,7 +38,7 @@ function openLink(value) {
         window.location.href = "https://cfx.re/join/d679oy";
     }
     if (value == "second") {
-        window.location.href = "https://discord.vgs.city/";
+        window.location.href = "https://discord.gg/783uqcyfr2";
     }
     if (value == "third") {
         window.location.href = "https://www.facebook.com/groups/ngaogame/";
