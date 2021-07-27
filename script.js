@@ -148,17 +148,3 @@ function selectRang(value) {
         document.getElementsByClassName('son')[0].style.display = "none";
     }
 }
-
-function getPlayers() {
-    return new Promise((send, err) => {
-        axios
-            .get(`http://139.99.122.40:30120/players.json`, { timeout: this.options.timeout })
-            .then(function(body) {
-                let players = body.data;
-                document.getElementsByClassName('secslots').innerHTML = players.length +'/1024';
-            })
-            .catch(function(error) {
-                err(error);
-            });
-    });
-}
