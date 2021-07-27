@@ -106,7 +106,7 @@ function aboutSlide(value) {
     }
     if (value == 3) {
         document.getElementsByClassName('intext')[0].style.transition = "all 1s";
-        document.getElementsByClassName('intext')[0].style.right = "80vw";
+        document.getElementsByClassName('intext')[0].style.right = "100vw";
         document.getElementsByClassName('about-title1')[0].style.borderBottom = null;
         document.getElementsByClassName('about-title2')[0].style.borderBottom = null;
         document.getElementsByClassName('about-title3')[0].style.borderBottom = "0.2vw solid rgb(60, 169, 24)";
